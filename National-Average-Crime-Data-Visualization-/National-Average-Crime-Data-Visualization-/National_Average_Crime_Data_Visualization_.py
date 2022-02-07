@@ -1,7 +1,7 @@
 import json
 import pandas as pd
 
-crime_json = open('C:\\Users\\Lauren\\source\\repos\\Homework\\FBI_CrimeData_2016.json', 'r')
+#crime_json = open('C:\\Users\\Lauren\\source\\repos\\Homework\\FBI_CrimeData_2016.json', 'r')
 crime_list = json.load(crime_json)
 crime_json.close()
 
